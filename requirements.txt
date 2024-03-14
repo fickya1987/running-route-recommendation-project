@@ -3,4 +3,5 @@ geopy
 polyline
 shapely
 pydeck
+bokeh
 streamlit_bokeh_events
