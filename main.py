@@ -9,7 +9,7 @@ from streamlit_bokeh_events import streamlit_bokeh_events
 
 
 # Title and description
-st.title("Running Route Recommendation App")
+st.title("Running Route Recommendation")
 st.write("Enter your location and preferred distance to find routes.")
 
 col1, col2 = st.columns(2)
