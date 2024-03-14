@@ -3,15 +3,11 @@ import requests
 
 #### for funcs
 from geopy import distance
-import numpy as np
 import polyline
 from dataclasses import dataclass, field
 from typing import Dict, List, Tuple
 from shapely import Point, LineString
 
-#### for display
-import folium
-from IPython.display import display
 
 @dataclass
 class Route:
