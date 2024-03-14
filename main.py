@@ -14,13 +14,12 @@ st.write("Enter your location and preferred distance to find routes.")
 
 col1, col2 = st.columns(2)
 with col1:
-    # Longitude input
-    placeholder1 = st.empty()
-    longitude = placeholder1.number_input("Longitude")
-with col2:
-    # Latitude input
     placeholder2 = st.empty()
     latitude = placeholder2.number_input("Latitude")
+with col2:
+    # Latitude input
+    placeholder1 = st.empty()
+    longitude = placeholder1.number_input("Longitude")
 
 # Latitude input
 loc_button = Button(label="Get Your Location")
